@@ -1,0 +1,102 @@
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     01
+611          - INATIVOS E PENSIONS. SIST PREVIDENCIARIO    CAT: APO                                                            
+====================================================================================================================================
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR  COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+003   PROVENTOS                       1.329         4.116.203,30   006   VERBA HONOR ATIVID JURID             5           43.140,00 
+018   ESTABIL FINAN  INCENTIVO            7             1.240,28   020   DEV IR EXERC ANTERIOR                1              413,20 
+025   GRAT SEEL LEI 17 626 2010          26             9.100,00   026   VANTAGEM PESSOAL -1                  7               57,62 
+027   20  INATIVO ULTIMA FAIXA           16             1.146,50   028   COMPL PARA REMUNERACAO SM          339          152.726,09 
+038   COMPL PROVI INCOR ADM INA          13             1.885,94   040   GRAT OPERADOR FOLHA PAGTO            2            2.066,90 
+041   GRAT  FUNCAO                        5               158,31   042   CARGO EM COMISSAO                    1              639,50 
+044   TEMPO COMPLEMENTAR                 46            17.537,72   048   REPRES  GABINETE                     4              676,29 
+050   GRAT  PART  EM COMISSAO             2             6.881,32   055   ESTABILIDADE FINANCEIRA            165          220.656,11 
+058   SERVICOS RELEVANTES                 6             3.180,50   059   PRODUTIVIDADE FISCAL                62          820.363,90 
+064   ESTABILIDADE EM COMISSOES           4             1.205,68   066   AJUDA DE C DIFICIL ACESSO            7              248,50 
+068   ENCARGO DE GABINETE                 7             2.375,26   080   ENCARGO GABINETE MOTORIST            3            2.202,00 
+082   GRAT SAUDE DA FAMILIA              15            32.526,18   093   GRAT ATENDIMENTO PUBLICO            20            8.318,10 
+094   EXERCICIO DA PROFISSAO             51             6.963,27   095   GRAT  EXERCICIO PROFISSAO            4            1.383,40 
+104   QUEBRA DE CAIXA                     1                54,15   114   HONORARIOS ADVOCATICIOS              5           34.500,00 
+131   QUINQUENIO                        683           449.870,14   132   DIF  DE QUINQUENIO                   1              143,64 
+133   INSALUBRIDADE                     196            44.930,71   134   ADC T  SERV POS EC 19 98           234           31.573,27 
+136   ADIC RISCO VIDA SEG PATRI          20            19.731,24   138   COMPENSACAO                          4              157,98 
+141   ADICIONAL DE PLANTAO                2               551,94   142   ADICIONAL PERICULOSIDADE             1               48,34 
+147   ADICIONAL 10  LEI15429 90          11               176,22   150   RISCO DE VIDA E SAUDE               22            1.836,97 
+156   HORA EXTRA DIURNA                  12             3.905,39   157   GRAT  ATENDIMENTO EXTERNO            1              460,00 
+161   INCORPORACAO FG                    15             4.879,69   162   REST PREV RECIPREV                   1            2.137,14 
+164   GRAT  SUPE  METAS FISCAIS          61           502.153,54   165   VANTAGEM PESSOAL A T F               8           33.021,78 
+166   ADICIONAL NOTURNO                  13             2.570,59   171   GRT MEM COM INQ ACUM CRG             3           10.476,05 
+172   HORA EXTRA NOTURNA                  7             4.701,73   173   GRAT ESP INCREM ARRECADA             8            2.880,00 
+174   COMPLEME  DIFER  REMUNER            9            24.054,28   204   ACORDO JUDICIAL                      3           13.305,69 
+231   REST IMPOSTO DE RENDA               1            17.427,88   240   GRAT INSPETORIA SANITARIA            1            1.350,00 
+278   GRAT INC SEG PATRIMONIAL           20            12.900,00   315   GRAT APOIO FOLHA PAGTO               4            2.376,90 
+319   VANTAGEM PESSOAL                   74            89.930,56   320   INDE EFI ATIV FISC E CONT           61          335.145,52 
+322   GRAT ATIVIDADE PROCURADOR           5            79.257,75   336   V  PES INC II ART 34                 5            4.281,16 
+342   INCENT RESOL 1855 ART9 2            1               168,16   349   GRATIF  DE REPRESENTACAO             1           12.153,02 
+361   GRAT ATEND CONTRIBUINTE             6             2.156,07   369   GRATIF  PARLAMENTAR UNICA            2            6.439,19 
+497   QUINQUENIO PROPORCIONAL           153             8.178,50 
+
+
+             TOTAL DE FUNCIONARIOS                   1.329
+             TOTAL DE VANTAGENS                7.213.181,06 
+
+====================================================================================================================== EMPREL ======
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     02
+611          - INATIVOS E PENSIONS. SIST PREVIDENCIARIO    CAT: APO                                                            
+====================================================================================================================================
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR  COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+414   AFREM SEGUROS PLANO I              31             3.471,74   418   PERNAMBUCRED - INTEG MENS            1               15,00 
+433   DESC ORDEM JUDICIAL                 1               218,89   451   COMPREV VIDA E PREVIDENCI            1              100,00 
+464   CIASPREV EMP                        1                65,45   465   CIASPREV CRT                         5            1.121,82 
+487   CRT BENEFICIO BANCO LECCA           8               656,99   488   B MASTER CRT BEN SAQUE              14            1.877,31 
+489   B MASTER CRT BEN COMPRAS            4               284,35   496   BANCO PINE CRT CREDITO               1              187,19 
+502   BANCO MASTER CRT CREDITO            9             1.755,12   516   IMPOSTO DE RENDA                   250          550.836,46 
+543   EMP SICRED                         10             7.268,56   546   CRT PAN                             38            2.554,61 
+554   CAPITAL CONSIG CRT BENEFI           1               184,96   556   EMP DAYCOVAL                         8              593,23 
+563   PENSAO ALIMENTICIA                 31            41.761,51   570   SIND ODONTOLOGOS PE                  5              114,00 
+578   ASS  SERVIDORES PCR                81             4.217,40   579   ASPCRE - ODONTOLOGICA                8              673,00 
+588   ASSOCIACAO DOS ARQUITETOS          14               140,00   590   SIND ACS E COMB ENDEMIAS           116            1.038,00 
+593   ASS ADVOGADOS - AJU                13               390,00   594   APSE ASSOC PE SERV ESTADO           48            6.000,00 
+595   AFREM - SINDICAL                   66            11.117,12   596   ASSOC  SERV  CIVIS BRASIL            3               84,00 
+598   UNIAO SERVIDOR MUNICIPAL           63             3.326,40   599   SIND MOT OFIC  EST  PE               1               26,40 
+602   CENTRO S S MUNICIPAL               17             1.346,40   603   CLUBE SERV MUNICIPAIS               76            4.065,60 
+608   SAUDE - ASPCRE -                    4             2.804,49   609   ASPCRE - HAPVIDA                     8           12.296,89 
+616   ASPCRE - UNIMED G-172               3             4.280,28   623   CENTRO PROFESSORES PERN              1               35,32 
+629   SIND ENFERMEIROS                    6               332,34   630   AFREM  ASSIST SAUDE                 12           39.779,25 
+631   SIND AUX E TEC SAUDE BUCA           5               132,00   632   SIND AUX E TEC ENFERMAGEM            3              100,60 
+651   EMPRESTIMO BANCO REAL              18             4.956,53   652   BANCO DO BRASIL                    121          172.441,98 
+660   SIND  SERV  PUB MUN  CONV           3               122,45   669   CRT BRADESCO                        74           12.289,73 
+676   SIND DOS GUARDAS MUNICIPA           5               193,21   678   CAIXA ECONOMICA FEDERAL             16            5.517,51 
+684   SIND  SERV  PUBL  MUNICI          113             5.797,89   687   EMP BRADESCO                       314          219.912,85 
+691   SIND  DOS MUSICOS                   8               389,38   692   SIND JORN PROF EST                   3               89,58 
+693   SIND  MEDICOS                      26             3.900,00   694   SIND TRAB  TRANS  RODOVI             1               43,15 
+698   SIMPERE                             1                15,24   703   ODONTOREAL LTDA                      7              728,00 
+707   EXCEDENTE TETO CONSTITUCI          54           164.459,75   713   SEGURO CAPEMI                       10            5.152,44 
+714   SEG MONGERAL                       13            10.704,16   717   PREVIMIL SEGUROS                     2              117,61 
+724   AMERICAN LIFE CIA SEGUROS          63             2.229,61   727   SEG GBOEX                            5            8.587,56 
+731   CLB  ATLANT  BRADESCO SEG          14               969,40   734   CLUBE SULAMERICANO                  15              986,82 
+735   SEGURO CLUBE EXECUTIVOS            19             1.701,55   745   AFREM PECULIO                       66            1.320,00 
+755   CO-PARTICIPACAO SAUDE REC         325            14.926,43   758   ASS  PROC  JUDICIAIS                 4              800,00 
+759   ASSOC PERNAM FISCOS MUNIC           2               110,00   761   ATM DIAGNOSTICO                      2              253,15 
+769   BANCO BMC S A                      77            27.158,42   774   CARTAO BONSUCESSO                   21            2.594,43 
+777   SAUDE RECIFE                      568            72.342,63   779   DIFERENCA SAUDE RECIFE               1               99,94 
+790   CONTR RECIPREV                    188           338.633,57   795   EMP PANAMERICANO                    14            1.218,14 
+798   ASS GUARDAS MUN INSP SUB            6               299,95 
+
+
+             TOTAL DE FUNCIONARIOS                   1.329
+             TOTAL DE DESCONTOS                1.786.315,74 
+
+             TOTAL LIQUIDO                     5.426.865,32 
+             TOTAL DE FGTS                                  
+             TOTAL BASE RECIFIN                             
+             TOTAL BASE RECIPREV               4.077.966,56 
+             TOTAL BASE INSS                                
+
+====================================================================================================================== EMPREL ======
+
+====================================================================================================================== EMPREL ======
+

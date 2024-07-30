@@ -1,0 +1,36 @@
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     01
+613          - INATIVOS E PENSIONISTAS FUNDACAO CULTURA    CAT: PPR                                                            
+====================================================================================================================================
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR  COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+294   PENSAO PREVIDENCIARIA               4            17.227,01 
+
+
+             TOTAL DE FUNCIONARIOS                       4
+             TOTAL DE VANTAGENS                   17.227,01 
+
+====================================================================================================================== EMPREL ======
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     02
+613          - INATIVOS E PENSIONISTAS FUNDACAO CULTURA    CAT: PPR                                                            
+====================================================================================================================================
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR  COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+516   IMPOSTO DE RENDA                    4               923,74   549   DESC  ADIANT  ORD  PAG               1            1.439,13 
+669   CRT BRADESCO                        1               301,95   684   SIND  SERV  PUBL  MUNICI             1               46,79 
+687   EMP BRADESCO                        2             2.404,81   777   SAUDE RECIFE                         2              223,83 
+790   CONTR RECIPREV                      1                15,23 
+
+
+             TOTAL DE FUNCIONARIOS                       4
+             TOTAL DE DESCONTOS                    5.355,48 
+
+             TOTAL LIQUIDO                        11.871,53 
+             TOTAL DE FGTS                                  
+             TOTAL BASE RECIFIN                             
+             TOTAL BASE RECIPREV                   7.616,26 
+             TOTAL BASE INSS                                
+
+====================================================================================================================== EMPREL ======
+
