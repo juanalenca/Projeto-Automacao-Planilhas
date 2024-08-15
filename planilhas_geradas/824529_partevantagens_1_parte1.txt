@@ -1,0 +1,34 @@
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+=================================================================
+003   PROVENTOS                       1.313         5.763.518,48
+025   GRAT SEEL LEI 17 626 2010          54            18.900,00
+027   20  INATIVO ULTIMA FAIXA           14             1.173,44
+037   DIF  DE PROVENTOS                   3            23.816,10
+041   GRAT  FUNCAO                        3                99,73
+044   TEMPO COMPLEMENTAR                 17             9.452,95
+050   GRAT  PART  EM COMISSAO             1             2.430,26
+066   AJUDA DE C DIFICIL ACESSO          96            11.724,22
+074   FUNCAO GRATIF  GRUPO MAG           12            11.200,00
+094   EXERCICIO DA PROFISSAO             30             2.597,03
+102   AULAS EXCEDENTES                    5            23.426,95
+131   QUINQUENIO                        888         1.081.798,90
+134   ADC T  SERV POS EC 19 98          300           100.579,28
+138   COMPENSACAO                         1                81,22
+150   RISCO DE VIDA E SAUDE              12             4.618,96
+160   HORA EXTRA VARIAVEL                 5            10.759,78
+165   VANTAGEM PESSOAL A T F              1             3.361,20
+171   GRT MEM COM INQ ACUM CRG            1             5.036,69
+203   PROG ACORDO PROC JUDICIAL          26            61.765,11
+231   REST IMPOSTO DE RENDA               2             2.936,81
+319   VANTAGEM PESSOAL                    1               835,08
+497   QUINQUENIO PROPORCIONAL           306            45.333,12
+
+
+TOTAL DE FUNCIONARIOS                   1.313
+TOTAL DE VANTAGENS                7.409.102,37
+
+==================================================================
+FUNDO FINANCEIRO RECIPREV                             ** REFERENC
+RESUMO FOLHA PAGAMENTO (V
+612          - INATIVOS E PENSIONISTAS SETOR EDUCACIONA    CAT: AP
+==================================================================

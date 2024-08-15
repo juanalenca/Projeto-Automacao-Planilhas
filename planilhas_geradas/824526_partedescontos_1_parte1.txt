@@ -1,0 +1,29 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+414   AFREM SEGUROS PLANO I               1               826,48
+466   BANCO SAFRA EMPRESTIMO              1               298,40
+488   B MASTER CRT BEN SAQUE              2               219,46
+502   BANCO MASTER CRT CREDITO            2               311,56
+543   EMP SICRED                          1               200,11
+549   DESC  ADIANT  ORD  PAG              1             5.280,00
+556   EMP DAYCOVAL                        2               156,22
+630   AFREM  ASSIST SAUDE                 1             2.653,02
+652   BANCO DO BRASIL                     9            15.313,60
+678   CAIXA ECONOMICA FEDERAL             3             1.417,35
+703   ODONTOREAL LTDA                     1                73,20
+745   AFREM PECULIO                       5               100,00
+769   BANCO BMC S A                      11             4.647,52
+777   SAUDE RECIFE                      139            11.844,36
+790   CONTR RECIPREV                     37            29.055,89
+
+
+TOTAL DE FUNCIONARIOS                     374
+TOTAL DE DESCONTOS                  226.080,78
+
+TOTAL LIQUIDO                       999.714,77
+TOTAL DE FGTS
+TOTAL BASE RECIFIN
+TOTAL BASE RECIPREV                 522.856,63
+TOTAL BASE INSS
+
+==================================================================

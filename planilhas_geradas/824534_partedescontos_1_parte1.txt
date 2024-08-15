@@ -1,0 +1,20 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+516   IMPOSTO DE RENDA                    6             2.313,27
+593   ASS ADVOGADOS - AJU                 2                60,00
+652   BANCO DO BRASIL                     1               291,81
+687   EMP BRADESCO                        6             3.402,65
+755   CO-PARTICIPACAO SAUDE REC          12               675,60
+790   CONTR RECIPREV                      3             1.625,40
+
+
+TOTAL DE FUNCIONARIOS                      35
+TOTAL DE DESCONTOS                   12.766,36
+
+TOTAL LIQUIDO                       142.359,45
+TOTAL DE FGTS
+TOTAL BASE RECIFIN
+TOTAL BASE RECIPREV                  49.147,47
+TOTAL BASE INSS
+
+==================================================================

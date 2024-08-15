@@ -1,0 +1,25 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+516   IMPOSTO DE RENDA                   12            20.429,43
+578   ASS  SERVIDORES PCR                 1                46,20
+593   ASS ADVOGADOS - AJU                 1                30,00
+596   ASSOC  SERV  CIVIS BRASIL           1                28,00
+603   CLUBE SERV MUNICIPAIS               1                 0,70
+669   CRT BRADESCO                        2               566,27
+687   EMP BRADESCO                        8            12.842,96
+713   SEGURO CAPEMI                       3                62,11
+724   AMERICAN LIFE CIA SEGUROS          11               241,40
+755   CO-PARTICIPACAO SAUDE REC          13               569,91
+790   CONTR RECIPREV                     11            14.283,28
+
+
+TOTAL DE FUNCIONARIOS                      48
+TOTAL DE DESCONTOS                   64.824,87
+
+TOTAL LIQUIDO                       276.849,83
+TOTAL DE FGTS
+TOTAL BASE RECIFIN
+TOTAL BASE RECIPREV                 207.128,39
+TOTAL BASE INSS
+
+==================================================================

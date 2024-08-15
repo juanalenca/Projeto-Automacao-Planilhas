@@ -1,0 +1,17 @@
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+=================================================================
+006   VERBA HONOR ATIVID JURID            4            34.512,00
+088   COMPLEM REMUNER EC 70 12            2               131,62
+164   GRAT  SUPE  METAS FISCAIS           2            17.116,72
+294   PENSAO PREVIDENCIARIA             369         1.047.822,32
+322   GRAT ATIVIDADE PROCURADOR           4            63.406,20
+
+
+TOTAL DE FUNCIONARIOS                     374
+TOTAL DE VANTAGENS                1.225.795,55
+
+==================================================================
+FUNDO FINANCEIRO RECIPREV                             ** REFERENC
+RESUMO FOLHA PAGAMENTO (V
+611          - INATIVOS E PENSIONS. SIST PREVIDENCIARIO    CAT: PP
+==================================================================

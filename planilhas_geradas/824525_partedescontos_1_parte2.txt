@@ -1,0 +1,53 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+418   PERNAMBUCRED - INTEG MENS            1               15,00
+451   COMPREV VIDA E PREVIDENCI            1              100,00
+465   CIASPREV CRT                         5            1.121,82
+488   B MASTER CRT BEN SAQUE              14            1.877,31
+496   BANCO PINE CRT CREDITO               1              187,19
+516   IMPOSTO DE RENDA                   250          550.836,46
+546   CRT PAN                             38            2.554,61
+556   EMP DAYCOVAL                         8              593,23
+570   SIND ODONTOLOGOS PE                  5              114,00
+579   ASPCRE - ODONTOLOGICA                8              673,00
+590   SIND ACS E COMB ENDEMIAS           116            1.038,00
+594   APSE ASSOC PE SERV ESTADO           48            6.000,00
+596   ASSOC  SERV  CIVIS BRASIL            3               84,00
+599   SIND MOT OFIC  EST  PE               1               26,40
+603   CLUBE SERV MUNICIPAIS               76            4.065,60
+609   ASPCRE - HAPVIDA                     8           12.296,89
+623   CENTRO PROFESSORES PERN              1               35,32
+630   AFREM  ASSIST SAUDE                 12           39.779,25
+632   SIND AUX E TEC ENFERMAGEM            3              100,60
+652   BANCO DO BRASIL                    121          172.441,98
+669   CRT BRADESCO                        74           12.289,73
+678   CAIXA ECONOMICA FEDERAL             16            5.517,51
+687   EMP BRADESCO                       314          219.912,85
+692   SIND JORN PROF EST                   3               89,58
+694   SIND TRAB  TRANS  RODOVI             1               43,15
+703   ODONTOREAL LTDA                      7              728,00
+713   SEGURO CAPEMI                       10            5.152,44
+717   PREVIMIL SEGUROS                     2              117,61
+727   SEG GBOEX                            5            8.587,56
+734   CLUBE SULAMERICANO                  15              986,82
+745   AFREM PECULIO                       66            1.320,00
+758   ASS  PROC  JUDICIAIS                 4              800,00
+761   ATM DIAGNOSTICO                      2              253,15
+774   CARTAO BONSUCESSO                   21            2.594,43
+779   DIFERENCA SAUDE RECIFE               1               99,94
+795   EMP PANAMERICANO                    14            1.218,14
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================== EMPREL ======
+
+==================================================== EMPREL ======

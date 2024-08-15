@@ -1,0 +1,21 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+488   B MASTER CRT BEN SAQUE              3               195,38
+503   CRT BENEFICIO BANCO PINE            1                45,79
+546   CRT PAN                             1                19,37
+652   BANCO DO BRASIL                     6             4.352,03
+678   CAIXA ECONOMICA FEDERAL             1             1.014,08
+755   CO-PARTICIPACAO SAUDE REC           7               229,28
+777   SAUDE RECIFE                       28             2.505,07
+
+
+TOTAL DE FUNCIONARIOS                     118
+TOTAL DE DESCONTOS                   44.462,65
+
+TOTAL LIQUIDO                       248.551,29
+TOTAL DE FGTS
+TOTAL BASE RECIFIN
+TOTAL BASE RECIPREV                   8.227,35
+TOTAL BASE INSS
+
+==================================================================

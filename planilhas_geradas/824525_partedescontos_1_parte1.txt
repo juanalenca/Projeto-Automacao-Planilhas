@@ -1,0 +1,53 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+414   AFREM SEGUROS PLANO I              31             3.471,74
+433   DESC ORDEM JUDICIAL                 1               218,89
+464   CIASPREV EMP                        1                65,45
+487   CRT BENEFICIO BANCO LECCA           8               656,99
+489   B MASTER CRT BEN COMPRAS            4               284,35
+502   BANCO MASTER CRT CREDITO            9             1.755,12
+543   EMP SICRED                         10             7.268,56
+554   CAPITAL CONSIG CRT BENEFI           1               184,96
+563   PENSAO ALIMENTICIA                 31            41.761,51
+578   ASS  SERVIDORES PCR                81             4.217,40
+588   ASSOCIACAO DOS ARQUITETOS          14               140,00
+593   ASS ADVOGADOS - AJU                13               390,00
+595   AFREM - SINDICAL                   66            11.117,12
+598   UNIAO SERVIDOR MUNICIPAL           63             3.326,40
+602   CENTRO S S MUNICIPAL               17             1.346,40
+608   SAUDE - ASPCRE -                    4             2.804,49
+616   ASPCRE - UNIMED G-172               3             4.280,28
+629   SIND ENFERMEIROS                    6               332,34
+631   SIND AUX E TEC SAUDE BUCA           5               132,00
+651   EMPRESTIMO BANCO REAL              18             4.956,53
+660   SIND  SERV  PUB MUN  CONV           3               122,45
+676   SIND DOS GUARDAS MUNICIPA           5               193,21
+684   SIND  SERV  PUBL  MUNICI          113             5.797,89
+691   SIND  DOS MUSICOS                   8               389,38
+693   SIND  MEDICOS                      26             3.900,00
+698   SIMPERE                             1                15,24
+707   EXCEDENTE TETO CONSTITUCI          54           164.459,75
+714   SEG MONGERAL                       13            10.704,16
+724   AMERICAN LIFE CIA SEGUROS          63             2.229,61
+731   CLB  ATLANT  BRADESCO SEG          14               969,40
+735   SEGURO CLUBE EXECUTIVOS            19             1.701,55
+755   CO-PARTICIPACAO SAUDE REC         325            14.926,43
+759   ASSOC PERNAM FISCOS MUNIC           2               110,00
+769   BANCO BMC S A                      77            27.158,42
+777   SAUDE RECIFE                      568            72.342,63
+790   CONTR RECIPREV                    188           338.633,57
+798   ASS GUARDAS MUN INSP SUB            6               299,95
+
+
+TOTAL DE FUNCIONARIOS                   1.329
+TOTAL DE DESCONTOS                1.786.315,74
+
+TOTAL LIQUIDO                     5.426.865,32
+TOTAL DE FGTS
+TOTAL BASE RECIFIN
+TOTAL BASE RECIPREV               4.077.966,56
+TOTAL BASE INSS
+
+==================================================================
+
+==================================================================

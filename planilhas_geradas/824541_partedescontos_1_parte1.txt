@@ -1,0 +1,14 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+
+
+TOTAL DE FUNCIONARIOS                       1
+TOTAL DE DESCONTOS
+
+TOTAL LIQUIDO                         6.519,92
+TOTAL DE FGTS
+TOTAL BASE RECIFIN
+TOTAL BASE RECIPREV
+TOTAL BASE INSS
+
+==================================================================

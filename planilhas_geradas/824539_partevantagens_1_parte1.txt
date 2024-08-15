@@ -1,0 +1,19 @@
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+=================================================================
+003   PROVENTOS                          48           189.151,43
+027   20  INATIVO ULTIMA FAIXA            3             1.022,29
+044   TEMPO COMPLEMENTAR                 14            19.066,81
+063   INCETIVO PECUN  ART  20             1               291,16
+131   QUINQUENIO                         47            77.402,26
+134   ADC T  SERV POS EC 19 98            6             1.762,48
+347   ISONOMIA RES 1577 98 CMR            5            31.049,06
+
+
+TOTAL DE FUNCIONARIOS                      48
+TOTAL DE VANTAGENS                  341.674,70
+
+==================================================================
+FUNDO FINANCEIRO RECIPREV                             ** REFERENC
+RESUMO FOLHA PAGAMENTO (V
+615          - INATIVOS E PENSIONISTAS CAMARA              CAT: AP
+==================================================================

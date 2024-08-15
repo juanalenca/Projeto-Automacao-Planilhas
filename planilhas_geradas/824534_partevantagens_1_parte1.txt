@@ -1,0 +1,17 @@
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+=================================================================
+003   PROVENTOS                          35            78.787,55
+055   ESTABILIDADE FINANCEIRA            18            35.376,82
+080   ENCARGO GABINETE MOTORIST           1               734,00
+134   ADC T  SERV POS EC 19 98           16             2.379,89
+497   QUINQUENIO PROPORCIONAL            14               944,77
+
+
+TOTAL DE FUNCIONARIOS                      35
+TOTAL DE VANTAGENS                  155.125,81
+
+==================================================================
+FUNDO FINANCEIRO RECIPREV                             ** REFERENC
+RESUMO FOLHA PAGAMENTO (V
+613          - INATIVOS E PENSIONISTAS FUNDACAO CULTURA    CAT: AP
+==================================================================

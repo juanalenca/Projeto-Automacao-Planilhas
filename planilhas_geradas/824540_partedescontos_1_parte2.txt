@@ -1,0 +1,21 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+488   B MASTER CRT BEN SAQUE               1              144,79
+502   BANCO MASTER CRT CREDITO             1               75,72
+516   IMPOSTO DE RENDA                     6            1.344,16
+678   CAIXA ECONOMICA FEDERAL              1              487,99
+755   CO-PARTICIPACAO SAUDE REC            1               19,00
+777   SAUDE RECIFE                         4              584,77
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================== EMPREL ======

@@ -1,0 +1,25 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+563   PENSAO ALIMENTICIA                   1            6.519,92
+579   ASPCRE - ODONTOLOGICA                1               33,40
+594   APSE ASSOC PE SERV ESTADO            7              875,00
+598   UNIAO SERVIDOR MUNICIPAL             4              211,20
+652   BANCO DO BRASIL                      2            1.813,64
+684   SIND  SERV  PUBL  MUNICI             1               46,79
+707   EXCEDENTE TETO CONSTITUCI            1              926,06
+714   SEG MONGERAL                         1              572,40
+727   SEG GBOEX                            1              628,14
+777   SAUDE RECIFE                        22            4.098,06
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================== EMPREL ======

@@ -1,0 +1,16 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+684   SIND  SERV  PUBL  MUNICI            1                46,79
+777   SAUDE RECIFE                        1                59,40
+
+
+TOTAL DE FUNCIONARIOS                       2
+TOTAL DE DESCONTOS                      147,79
+
+TOTAL LIQUIDO                         3.264,77
+TOTAL DE FGTS
+TOTAL BASE RECIFIN
+TOTAL BASE RECIPREV
+TOTAL BASE INSS
+
+==================================================================

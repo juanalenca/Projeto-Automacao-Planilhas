@@ -1,0 +1,17 @@
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+=================================================================
+028   COMPL PARA REMUNERACAO SM           84           18.073,19
+162   REST PREV RECIPREV                   1            2.102,10
+231   REST IMPOSTO DE RENDA                2           26.872,61
+295   DIF  PENSAO PREVIDENCIARI            3           15.758,79
+
+
+
+
+
+
+==================================================== EMPREL ======
+IA DEZ/2023  **                       RH2000
+ERSAO PCR)                               19/12/23      PAG.     02
+R
+==================================================================

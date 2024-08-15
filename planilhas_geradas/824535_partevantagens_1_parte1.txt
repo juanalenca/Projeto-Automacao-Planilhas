@@ -1,0 +1,13 @@
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+=================================================================
+294   PENSAO PREVIDENCIARIA               4            17.227,01
+
+
+TOTAL DE FUNCIONARIOS                       4
+TOTAL DE VANTAGENS                   17.227,01
+
+==================================================================
+FUNDO FINANCEIRO RECIPREV                             ** REFERENC
+RESUMO FOLHA PAGAMENTO (V
+613          - INATIVOS E PENSIONISTAS FUNDACAO CULTURA    CAT: PP
+==================================================================
