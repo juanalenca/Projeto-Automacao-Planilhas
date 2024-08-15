@@ -1,0 +1,49 @@
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     01
+615          - INATIVOS E PENSIONISTAS CAMARA              CAT: APO                                                            
+====================================================================================================================================
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR  COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+003   PROVENTOS                          48           189.151,43   026   VANTAGEM PESSOAL -1                  1                0,04 
+027   20  INATIVO ULTIMA FAIXA            3             1.022,29   028   COMPL PARA REMUNERACAO SM            1              894,77 
+044   TEMPO COMPLEMENTAR                 14            19.066,81   055   ESTABILIDADE FINANCEIRA             11           16.016,29 
+063   INCETIVO PECUN  ART  20             1               291,16   095   GRAT  EXERCICIO PROFISSAO            5            2.449,50 
+131   QUINQUENIO                         47            77.402,26   133   INSALUBRIDADE                        7            2.422,31 
+134   ADC T  SERV POS EC 19 98            6             1.762,48   150   RISCO DE VIDA E SAUDE                1              146,30 
+347   ISONOMIA RES 1577 98 CMR            5            31.049,06 
+
+
+             TOTAL DE FUNCIONARIOS                      48
+             TOTAL DE VANTAGENS                  341.674,70 
+
+====================================================================================================================== EMPREL ======
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     02
+615          - INATIVOS E PENSIONISTAS CAMARA              CAT: APO                                                            
+====================================================================================================================================
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR  COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+516   IMPOSTO DE RENDA                   12            20.429,43   563   PENSAO ALIMENTICIA                   1            6.519,92 
+578   ASS  SERVIDORES PCR                 1                46,20   579   ASPCRE - ODONTOLOGICA                1               33,40 
+593   ASS ADVOGADOS - AJU                 1                30,00   594   APSE ASSOC PE SERV ESTADO            7              875,00 
+596   ASSOC  SERV  CIVIS BRASIL           1                28,00   598   UNIAO SERVIDOR MUNICIPAL             4              211,20 
+603   CLUBE SERV MUNICIPAIS               1                 0,70   652   BANCO DO BRASIL                      2            1.813,64 
+669   CRT BRADESCO                        2               566,27   684   SIND  SERV  PUBL  MUNICI             1               46,79 
+687   EMP BRADESCO                        8            12.842,96   707   EXCEDENTE TETO CONSTITUCI            1              926,06 
+713   SEGURO CAPEMI                       3                62,11   714   SEG MONGERAL                         1              572,40 
+724   AMERICAN LIFE CIA SEGUROS          11               241,40   727   SEG GBOEX                            1              628,14 
+755   CO-PARTICIPACAO SAUDE REC          13               569,91   777   SAUDE RECIFE                        22            4.098,06 
+790   CONTR RECIPREV                     11            14.283,28 
+
+
+             TOTAL DE FUNCIONARIOS                      48
+             TOTAL DE DESCONTOS                   64.824,87 
+
+             TOTAL LIQUIDO                       276.849,83 
+             TOTAL DE FGTS                                  
+             TOTAL BASE RECIFIN                             
+             TOTAL BASE RECIPREV                 207.128,39 
+             TOTAL BASE INSS                                
+
+====================================================================================================================== EMPREL ======
+

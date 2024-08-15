@@ -1,0 +1,32 @@
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     01
+612          - INATIVOS E PENSIONISTAS SETOR EDUCACIONA    CAT: PEN                                                            
+====================================================================================================================================
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR  COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+286   PENSAO ALIMENTICIA                  8             6.278,68 
+
+
+             TOTAL DE FUNCIONARIOS                       8
+             TOTAL DE VANTAGENS                    6.278,68 
+
+====================================================================================================================== EMPREL ======
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     02
+612          - INATIVOS E PENSIONISTAS SETOR EDUCACIONA    CAT: PEN                                                            
+====================================================================================================================================
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR  COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+
+
+             TOTAL DE FUNCIONARIOS                       8
+             TOTAL DE DESCONTOS                             
+
+             TOTAL LIQUIDO                         6.278,68 
+             TOTAL DE FGTS                                  
+             TOTAL BASE RECIFIN                             
+             TOTAL BASE RECIPREV                            
+             TOTAL BASE INSS                                
+
+====================================================================================================================== EMPREL ======
+

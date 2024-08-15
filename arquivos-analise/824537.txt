@@ -1,0 +1,36 @@
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     01
+614          - INATIVOS E PENSIONISTAS GERALDAO            CAT: APO                                                            
+====================================================================================================================================
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR  COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+003   PROVENTOS                           2             1.994,56   028   COMPL PARA REMUNERACAO SM            1              498,11 
+055   ESTABILIDADE FINANCEIRA             1               475,04   131   QUINQUENIO                           1              329,54 
+134   ADC T  SERV POS EC 19 98            1                58,63   497   QUINQUENIO PROPORCIONAL              1               56,68 
+
+
+             TOTAL DE FUNCIONARIOS                       2
+             TOTAL DE VANTAGENS                    3.412,56 
+
+====================================================================================================================== EMPREL ======
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     02
+614          - INATIVOS E PENSIONISTAS GERALDAO            CAT: APO                                                            
+====================================================================================================================================
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR  COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+684   SIND  SERV  PUBL  MUNICI            1                46,79   755   CO-PARTICIPACAO SAUDE REC            1               41,60 
+777   SAUDE RECIFE                        1                59,40 
+
+
+             TOTAL DE FUNCIONARIOS                       2
+             TOTAL DE DESCONTOS                      147,79 
+
+             TOTAL LIQUIDO                         3.264,77 
+             TOTAL DE FGTS                                  
+             TOTAL BASE RECIFIN                             
+             TOTAL BASE RECIPREV                            
+             TOTAL BASE INSS                                
+
+====================================================================================================================== EMPREL ======
+

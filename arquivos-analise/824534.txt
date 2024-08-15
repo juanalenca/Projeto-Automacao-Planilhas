@@ -1,0 +1,42 @@
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     01
+613          - INATIVOS E PENSIONISTAS FUNDACAO CULTURA    CAT: APO                                                            
+====================================================================================================================================
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR  COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+003   PROVENTOS                          35            78.787,55   028   COMPL PARA REMUNERACAO SM            2            1.497,77 
+055   ESTABILIDADE FINANCEIRA            18            35.376,82   065   REPR  ASS  JURIDICO                  2            9.585,20 
+080   ENCARGO GABINETE MOTORIST           1               734,00   131   QUINQUENIO                          31           25.681,63 
+134   ADC T  SERV POS EC 19 98           16             2.379,89   142   ADICIONAL PERICULOSIDADE             1              138,18 
+497   QUINQUENIO PROPORCIONAL            14               944,77 
+
+
+             TOTAL DE FUNCIONARIOS                      35
+             TOTAL DE VANTAGENS                  155.125,81 
+
+====================================================================================================================== EMPREL ======
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     02
+613          - INATIVOS E PENSIONISTAS FUNDACAO CULTURA    CAT: APO                                                            
+====================================================================================================================================
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR  COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+516   IMPOSTO DE RENDA                    6             2.313,27   578   ASS  SERVIDORES PCR                  3              158,40 
+593   ASS ADVOGADOS - AJU                 2                60,00   594   APSE ASSOC PE SERV ESTADO            3              375,00 
+652   BANCO DO BRASIL                     1               291,81   684   SIND  SERV  PUBL  MUNICI            10              560,74 
+687   EMP BRADESCO                        6             3.402,65   724   AMERICAN LIFE CIA SEGUROS            2              163,98 
+755   CO-PARTICIPACAO SAUDE REC          12               675,60   777   SAUDE RECIFE                        20            3.139,51 
+790   CONTR RECIPREV                      3             1.625,40 
+
+
+             TOTAL DE FUNCIONARIOS                      35
+             TOTAL DE DESCONTOS                   12.766,36 
+
+             TOTAL LIQUIDO                       142.359,45 
+             TOTAL DE FGTS                                  
+             TOTAL BASE RECIFIN                             
+             TOTAL BASE RECIPREV                  49.147,47 
+             TOTAL BASE INSS                                
+
+====================================================================================================================== EMPREL ======
+

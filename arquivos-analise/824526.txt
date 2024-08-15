@@ -1,0 +1,51 @@
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     01
+611          - INATIVOS E PENSIONS. SIST PREVIDENCIARIO    CAT: PPR                                                            
+====================================================================================================================================
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR  COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+006   VERBA HONOR ATIVID JURID            4            34.512,00   028   COMPL PARA REMUNERACAO SM           84           18.073,19 
+088   COMPLEM REMUNER EC 70 12            2               131,62   162   REST PREV RECIPREV                   1            2.102,10 
+164   GRAT  SUPE  METAS FISCAIS           2            17.116,72   231   REST IMPOSTO DE RENDA                2           26.872,61 
+294   PENSAO PREVIDENCIARIA             369         1.047.822,32   295   DIF  PENSAO PREVIDENCIARI            3           15.758,79 
+322   GRAT ATIVIDADE PROCURADOR           4            63.406,20 
+
+
+             TOTAL DE FUNCIONARIOS                     374
+             TOTAL DE VANTAGENS                1.225.795,55 
+
+====================================================================================================================== EMPREL ======
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     02
+611          - INATIVOS E PENSIONS. SIST PREVIDENCIARIO    CAT: PPR                                                            
+====================================================================================================================================
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR  COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+414   AFREM SEGUROS PLANO I               1               826,48   465   CIASPREV CRT                         3              369,29 
+466   BANCO SAFRA EMPRESTIMO              1               298,40   487   CRT BENEFICIO BANCO LECCA            2              113,31 
+488   B MASTER CRT BEN SAQUE              2               219,46   489   B MASTER CRT BEN COMPRAS             1               27,09 
+502   BANCO MASTER CRT CREDITO            2               311,56   516   IMPOSTO DE RENDA                    68           67.744,44 
+543   EMP SICRED                          1               200,11   546   CRT PAN                              9              739,01 
+549   DESC  ADIANT  ORD  PAG              1             5.280,00   554   CAPITAL CONSIG CRT BENEFI            1               31,23 
+556   EMP DAYCOVAL                        2               156,22   595   AFREM - SINDICAL                     5              463,21 
+630   AFREM  ASSIST SAUDE                 1             2.653,02   651   EMPRESTIMO BANCO REAL                2            1.244,43 
+652   BANCO DO BRASIL                     9            15.313,60   669   CRT BRADESCO                        15            3.323,04 
+678   CAIXA ECONOMICA FEDERAL             3             1.417,35   687   EMP BRADESCO                        97           76.990,16 
+703   ODONTOREAL LTDA                     1                73,20   707   EXCEDENTE TETO CONSTITUCI            1               96,07 
+745   AFREM PECULIO                       5               100,00   755   CO-PARTICIPACAO SAUDE REC           66            2.241,61 
+769   BANCO BMC S A                      11             4.647,52   774   CARTAO BONSUCESSO                    1               43,53 
+777   SAUDE RECIFE                      139            11.844,36   779   DIFERENCA SAUDE RECIFE               1              187,39 
+790   CONTR RECIPREV                     37            29.055,89   795   EMP PANAMERICANO                     2               69,80 
+
+
+             TOTAL DE FUNCIONARIOS                     374
+             TOTAL DE DESCONTOS                  226.080,78 
+
+             TOTAL LIQUIDO                       999.714,77 
+             TOTAL DE FGTS                                  
+             TOTAL BASE RECIFIN                             
+             TOTAL BASE RECIPREV                 522.856,63 
+             TOTAL BASE INSS                                
+
+====================================================================================================================== EMPREL ======
+

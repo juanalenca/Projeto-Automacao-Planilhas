@@ -1,0 +1,39 @@
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     01
+612          - INATIVOS E PENSIONISTAS SETOR EDUCACIONA    CAT: PPR                                                            
+====================================================================================================================================
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR  COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+028   COMPL PARA REMUNERACAO SM          18             3.230,44   294   PENSAO PREVIDENCIARIA              118          289.783,50 
+
+
+             TOTAL DE FUNCIONARIOS                     118
+             TOTAL DE VANTAGENS                  293.013,94 
+
+====================================================================================================================== EMPREL ======
+FUNDO FINANCEIRO RECIPREV                             ** REFERENCIA DEZ/2023  **                       RH2000
+                                         RESUMO FOLHA PAGAMENTO (VERSAO PCR)                               19/12/23      PAG.     02
+612          - INATIVOS E PENSIONISTAS SETOR EDUCACIONA    CAT: PPR                                                            
+====================================================================================================================================
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR  COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+====================================================================================================================================
+488   B MASTER CRT BEN SAQUE              3               195,38   489   B MASTER CRT BEN COMPRAS             1               20,23 
+503   CRT BENEFICIO BANCO PINE            1                45,79   516   IMPOSTO DE RENDA                    33            9.259,38 
+546   CRT PAN                             1                19,37   568   DSC PENSAO PREVIDENCIARIA            1              414,07 
+652   BANCO DO BRASIL                     6             4.352,03   669   CRT BRADESCO                         3              920,09 
+678   CAIXA ECONOMICA FEDERAL             1             1.014,08   687   EMP BRADESCO                        32           23.693,12 
+755   CO-PARTICIPACAO SAUDE REC           7               229,28   769   BANCO BMC S A                        3            1.693,98 
+777   SAUDE RECIFE                       28             2.505,07   790   CONTR RECIPREV                       1              100,78 
+
+
+             TOTAL DE FUNCIONARIOS                     118
+             TOTAL DE DESCONTOS                   44.462,65 
+
+             TOTAL LIQUIDO                       248.551,29 
+             TOTAL DE FGTS                                  
+             TOTAL BASE RECIFIN                             
+             TOTAL BASE RECIPREV                   8.227,35 
+             TOTAL BASE INSS                                
+
+====================================================================================================================== EMPREL ======
+
