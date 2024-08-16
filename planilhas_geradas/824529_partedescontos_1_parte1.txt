@@ -1,0 +1,44 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+418   PERNAMBUCRED - INTEG MENS           3                45,00
+433   DESC ORDEM JUDICIAL                 1             2.657,92
+487   CRT BENEFICIO BANCO LECCA          10             1.050,58
+489   B MASTER CRT BEN COMPRAS           10               464,16
+503   CRT BENEFICIO BANCO PINE            1                35,10
+535   CAPITAL CONSIG CRT CREDIT           1               453,68
+546   CRT PAN                            45             5.582,51
+554   CAPITAL CONSIG CRT BENEFI           1               216,71
+557   EMP ALFA                            1                96,50
+578   ASS  SERVIDORES PCR                70             4.441,80
+582   DESC CONECTIVIDADE                 26               409,76
+590   SIND ACS E COMB ENDEMIAS            1                 4,91
+594   APSE ASSOC PE SERV ESTADO          28             3.500,00
+598   UNIAO SERVIDOR MUNICIPAL           15               792,00
+603   CLUBE SERV MUNICIPAIS              74             4.276,80
+609   ASPCRE - HAPVIDA                    8            11.165,32
+623   CENTRO PROFESSORES PERN            30             1.810,68
+652   BANCO DO BRASIL                   155           185.569,63
+669   CRT BRADESCO                       74            15.830,07
+684   SIND  SERV  PUBL  MUNICI           81             3.929,25
+698   SIMPERE                           534            32.718,12
+713   SEGURO CAPEMI                       8             2.649,21
+717   PREVIMIL SEGUROS                    3               220,56
+727   SEG GBOEX                           8             6.908,36
+734   CLUBE SULAMERICANO                 13               690,30
+745   AFREM PECULIO                       1                20,00
+760   CLUBE ANCORA                        2               249,68
+769   BANCO BMC S A                      70            38.013,49
+777   SAUDE RECIFE                      410           102.111,23
+795   EMP PANAMERICANO                   24             3.919,51
+
+
+TOTAL DE FUNCIONARIOS                   1.313
+TOTAL DE DESCONTOS                1.538.029,33
+
+TOTAL LIQUIDO                     5.871.073,04
+TOTAL DE FGTS
+TOTAL BASE RECIFIN
+TOTAL BASE RECIPREV               3.656.172,63
+TOTAL BASE INSS
+
+==================================================================

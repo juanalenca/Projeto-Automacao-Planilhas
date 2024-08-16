@@ -1,0 +1,21 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+419   EMP  PERNAMBUCRED                   1             1.209,11
+489   B MASTER CRT BEN COMPRAS            1                 0,14
+503   CRT BENEFICIO BANCO PINE            1                15,35
+669   CRT BRADESCO                        1               178,20
+687   EMP BRADESCO                        3             8.342,70
+769   BANCO BMC S A                       1               228,14
+790   CONTR RECIPREV                      1               185,55
+
+
+TOTAL DE FUNCIONARIOS                      12
+TOTAL DE DESCONTOS                   12.815,62
+
+TOTAL LIQUIDO                        61.011,46
+TOTAL DE FGTS
+TOTAL BASE RECIFIN
+TOTAL BASE RECIPREV                  16.340,32
+TOTAL BASE INSS
+
+==================================================================

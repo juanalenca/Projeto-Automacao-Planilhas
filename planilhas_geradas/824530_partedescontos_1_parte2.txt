@@ -1,0 +1,21 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+489   B MASTER CRT BEN COMPRAS             1               20,23
+516   IMPOSTO DE RENDA                    33            9.259,38
+568   DSC PENSAO PREVIDENCIARIA            1              414,07
+669   CRT BRADESCO                         3              920,09
+687   EMP BRADESCO                        32           23.693,12
+769   BANCO BMC S A                        3            1.693,98
+790   CONTR RECIPREV                       1              100,78
+
+
+
+
+
+
+
+
+
+
+
+==================================================== EMPREL ======

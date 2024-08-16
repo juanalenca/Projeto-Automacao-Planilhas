@@ -1,0 +1,29 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+465   CIASPREV CRT                         3              369,29
+487   CRT BENEFICIO BANCO LECCA            2              113,31
+489   B MASTER CRT BEN COMPRAS             1               27,09
+516   IMPOSTO DE RENDA                    68           67.744,44
+546   CRT PAN                              9              739,01
+554   CAPITAL CONSIG CRT BENEFI            1               31,23
+595   AFREM - SINDICAL                     5              463,21
+651   EMPRESTIMO BANCO REAL                2            1.244,43
+669   CRT BRADESCO                        15            3.323,04
+687   EMP BRADESCO                        97           76.990,16
+707   EXCEDENTE TETO CONSTITUCI            1               96,07
+755   CO-PARTICIPACAO SAUDE REC           66            2.241,61
+774   CARTAO BONSUCESSO                    1               43,53
+779   DIFERENCA SAUDE RECIFE               1              187,39
+795   EMP PANAMERICANO                     2               69,80
+
+
+
+
+
+
+
+
+
+
+
+==================================================== EMPREL ======

@@ -1,0 +1,20 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+578   ASS  SERVIDORES PCR                  3              158,40
+594   APSE ASSOC PE SERV ESTADO            3              375,00
+684   SIND  SERV  PUBL  MUNICI            10              560,74
+724   AMERICAN LIFE CIA SEGUROS            2              163,98
+777   SAUDE RECIFE                        20            3.139,51
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================== EMPREL ======

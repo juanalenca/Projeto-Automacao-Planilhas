@@ -1,0 +1,34 @@
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+=================================================================
+020   DEV IR EXERC ANTERIOR                2           35.855,00
+026   VANTAGEM PESSOAL -1                  5                0,13
+028   COMPL PARA REMUNERACAO SM          121           50.437,22
+038   COMPL PROVI INCOR ADM INA            1               49,06
+042   CARGO EM COMISSAO                    1              166,61
+048   REPRES  GABINETE                     1               48,34
+055   ESTABILIDADE FINANCEIRA            161          102.038,50
+070   GRAT  ENSINO ESPECIAL               11            4.725,00
+093   GRAT ATENDIMENTO PUBLICO             2              850,00
+099   GT  FUNCAO SECRET  ESCOLA            4            1.400,00
+112   AJUDA CUSTO LEI 14410 59            15              990,00
+133   INSALUBRIDADE                       16            2.824,86
+136   ADIC RISCO VIDA SEG PATRI            2            1.336,98
+147   ADICIONAL 10  LEI15429 90            1               14,16
+156   HORA EXTRA DIURNA                    4            1.707,08
+161   INCORPORACAO FG                      8            3.688,35
+167   ADICIONAL NOTURNO -FG                7           11.755,10
+172   HORA EXTRA NOTURNA                   3            1.651,72
+210   DIF  13  SALARIO                     2            2.640,00
+278   GRAT INC SEG PATRIMONIAL             2            1.290,00
+340   INCENT PEC RES 170 90 INA            1               68,91
+796   DIFERENCA AVOS QUINQUENIO            1              120,04
+
+
+
+
+
+==================================================== EMPREL ======
+IA DEZ/2023  **                       RH2000
+ERSAO PCR)                               19/12/23      PAG.     02
+O
+==================================================================

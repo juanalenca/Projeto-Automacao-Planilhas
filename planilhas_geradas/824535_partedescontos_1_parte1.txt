@@ -1,0 +1,18 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+516   IMPOSTO DE RENDA                    4               923,74
+669   CRT BRADESCO                        1               301,95
+687   EMP BRADESCO                        2             2.404,81
+790   CONTR RECIPREV                      1                15,23
+
+
+TOTAL DE FUNCIONARIOS                       4
+TOTAL DE DESCONTOS                    5.355,48
+
+TOTAL LIQUIDO                        11.871,53
+TOTAL DE FGTS
+TOTAL BASE RECIFIN
+TOTAL BASE RECIPREV                   7.616,26
+TOTAL BASE INSS
+
+==================================================================

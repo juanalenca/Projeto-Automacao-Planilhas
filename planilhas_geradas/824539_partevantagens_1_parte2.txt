@@ -1,0 +1,19 @@
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+=================================================================
+026   VANTAGEM PESSOAL -1                  1                0,04
+028   COMPL PARA REMUNERACAO SM            1              894,77
+055   ESTABILIDADE FINANCEIRA             11           16.016,29
+095   GRAT  EXERCICIO PROFISSAO            5            2.449,50
+133   INSALUBRIDADE                        7            2.422,31
+150   RISCO DE VIDA E SAUDE                1              146,30
+
+
+
+
+
+
+==================================================== EMPREL ======
+IA DEZ/2023  **                       RH2000
+ERSAO PCR)                               19/12/23      PAG.     02
+O
+==================================================================

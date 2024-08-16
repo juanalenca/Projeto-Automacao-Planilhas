@@ -1,0 +1,14 @@
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+=================================================================
+028   COMPL PARA REMUNERACAO SM           3                60,81
+295   DIF  PENSAO PREVIDENCIARI           3            13.146,00
+
+
+TOTAL DE FUNCIONARIOS                      12
+TOTAL DE VANTAGENS                   73.827,08
+
+==================================================================
+FUNDO FINANCEIRO RECIPREV                             ** REFERENC
+RESUMO FOLHA PAGAMENTO (V
+615          - INATIVOS E PENSIONISTAS CAMARA              CAT: PP
+==================================================================

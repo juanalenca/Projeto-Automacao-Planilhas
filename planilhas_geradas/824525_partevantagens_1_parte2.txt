@@ -1,0 +1,44 @@
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+=================================================================
+006   VERBA HONOR ATIVID JURID             5           43.140,00
+020   DEV IR EXERC ANTERIOR                1              413,20
+026   VANTAGEM PESSOAL -1                  7               57,62
+028   COMPL PARA REMUNERACAO SM          339          152.726,09
+040   GRAT OPERADOR FOLHA PAGTO            2            2.066,90
+042   CARGO EM COMISSAO                    1              639,50
+048   REPRES  GABINETE                     4              676,29
+055   ESTABILIDADE FINANCEIRA            165          220.656,11
+059   PRODUTIVIDADE FISCAL                62          820.363,90
+066   AJUDA DE C DIFICIL ACESSO            7              248,50
+080   ENCARGO GABINETE MOTORIST            3            2.202,00
+093   GRAT ATENDIMENTO PUBLICO            20            8.318,10
+095   GRAT  EXERCICIO PROFISSAO            4            1.383,40
+114   HONORARIOS ADVOCATICIOS              5           34.500,00
+132   DIF  DE QUINQUENIO                   1              143,64
+134   ADC T  SERV POS EC 19 98           234           31.573,27
+138   COMPENSACAO                          4              157,98
+142   ADICIONAL PERICULOSIDADE             1               48,34
+150   RISCO DE VIDA E SAUDE               22            1.836,97
+157   GRAT  ATENDIMENTO EXTERNO            1              460,00
+162   REST PREV RECIPREV                   1            2.137,14
+165   VANTAGEM PESSOAL A T F               8           33.021,78
+171   GRT MEM COM INQ ACUM CRG             3           10.476,05
+173   GRAT ESP INCREM ARRECADA             8            2.880,00
+204   ACORDO JUDICIAL                      3           13.305,69
+240   GRAT INSPETORIA SANITARIA            1            1.350,00
+315   GRAT APOIO FOLHA PAGTO               4            2.376,90
+320   INDE EFI ATIV FISC E CONT           61          335.145,52
+336   V  PES INC II ART 34                 5            4.281,16
+349   GRATIF  DE REPRESENTACAO             1           12.153,02
+369   GRATIF  PARLAMENTAR UNICA            2            6.439,19
+
+
+
+
+
+
+==================================================== EMPREL ======
+IA DEZ/2023  **                       RH2000
+ERSAO PCR)                               19/12/23      PAG.     02
+O
+==================================================================

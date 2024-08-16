@@ -1,0 +1,44 @@
+COD   D E S C O N T O S            TOT. FUNC.          TOT. VALOR
+=================================================================
+419   EMP  PERNAMBUCRED                    2              942,95
+465   CIASPREV CRT                         4            1.463,02
+488   B MASTER CRT BEN SAQUE              21            3.062,24
+502   BANCO MASTER CRT CREDITO             8            1.933,06
+516   IMPOSTO DE RENDA                   743          510.741,57
+543   EMP SICRED                           1            1.808,05
+549   DESC  ADIANT  ORD  PAG               2           18.536,10
+556   EMP DAYCOVAL                         7            1.083,34
+563   PENSAO ALIMENTICIA                   7            6.278,68
+579   ASPCRE - ODONTOLOGICA               11              965,94
+588   ASSOCIACAO DOS ARQUITETOS            1               10,00
+593   ASS ADVOGADOS - AJU                  2               60,00
+595   AFREM - SINDICAL                     1               47,19
+602   CENTRO S S MUNICIPAL                 7              554,40
+608   SAUDE - ASPCRE -                     6            3.926,67
+616   ASPCRE - UNIMED G-172                2            1.794,96
+651   EMPRESTIMO BANCO REAL               18            9.213,46
+660   SIND  SERV  PUB MUN  CONV           13              401,86
+678   CAIXA ECONOMICA FEDERAL              8            3.487,18
+687   EMP BRADESCO                       321          393.994,39
+703   ODONTOREAL LTDA                     12            1.868,76
+714   SEG MONGERAL                        23            6.510,92
+724   AMERICAN LIFE CIA SEGUROS           31              831,86
+731   CLB  ATLANT  BRADESCO SEG           50            1.471,23
+735   SEGURO CLUBE EXECUTIVOS             27              695,43
+755   CO-PARTICIPACAO SAUDE REC          223           10.394,16
+761   ATM DIAGNOSTICO                      4              458,06
+774   CARTAO BONSUCESSO                   10            1.633,99
+790   CONTR RECIPREV                     369          124.027,02
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================== EMPREL ======

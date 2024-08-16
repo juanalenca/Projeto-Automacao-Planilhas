@@ -1,0 +1,44 @@
+COD   V A N T A G E N S            TOT. FUNC.          TOT. VALOR
+=================================================================
+003   PROVENTOS                       1.329         4.116.203,30
+018   ESTABIL FINAN  INCENTIVO            7             1.240,28
+025   GRAT SEEL LEI 17 626 2010          26             9.100,00
+027   20  INATIVO ULTIMA FAIXA           16             1.146,50
+038   COMPL PROVI INCOR ADM INA          13             1.885,94
+041   GRAT  FUNCAO                        5               158,31
+044   TEMPO COMPLEMENTAR                 46            17.537,72
+050   GRAT  PART  EM COMISSAO             2             6.881,32
+058   SERVICOS RELEVANTES                 6             3.180,50
+064   ESTABILIDADE EM COMISSOES           4             1.205,68
+068   ENCARGO DE GABINETE                 7             2.375,26
+082   GRAT SAUDE DA FAMILIA              15            32.526,18
+094   EXERCICIO DA PROFISSAO             51             6.963,27
+104   QUEBRA DE CAIXA                     1                54,15
+131   QUINQUENIO                        683           449.870,14
+133   INSALUBRIDADE                     196            44.930,71
+136   ADIC RISCO VIDA SEG PATRI          20            19.731,24
+141   ADICIONAL DE PLANTAO                2               551,94
+147   ADICIONAL 10  LEI15429 90          11               176,22
+156   HORA EXTRA DIURNA                  12             3.905,39
+161   INCORPORACAO FG                    15             4.879,69
+164   GRAT  SUPE  METAS FISCAIS          61           502.153,54
+166   ADICIONAL NOTURNO                  13             2.570,59
+172   HORA EXTRA NOTURNA                  7             4.701,73
+174   COMPLEME  DIFER  REMUNER            9            24.054,28
+231   REST IMPOSTO DE RENDA               1            17.427,88
+278   GRAT INC SEG PATRIMONIAL           20            12.900,00
+319   VANTAGEM PESSOAL                   74            89.930,56
+322   GRAT ATIVIDADE PROCURADOR           5            79.257,75
+342   INCENT RESOL 1855 ART9 2            1               168,16
+361   GRAT ATEND CONTRIBUINTE             6             2.156,07
+497   QUINQUENIO PROPORCIONAL           153             8.178,50
+
+
+TOTAL DE FUNCIONARIOS                   1.329
+TOTAL DE VANTAGENS                7.213.181,06
+
+==================================================================
+FUNDO FINANCEIRO RECIPREV                             ** REFERENC
+RESUMO FOLHA PAGAMENTO (V
+611          - INATIVOS E PENSIONS. SIST PREVIDENCIARIO    CAT: AP
+==================================================================
