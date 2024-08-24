@@ -1,3 +1,4 @@
+
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import re
@@ -5,18 +6,23 @@ import os
 import pandas as pd
 import sqlite3
 from openpyxl import load_workbook
-from openpyxl.styles import PatternFill
+from openpyxl.styles import PatternFill, Font, Alignment
+from openpyxl.utils import get_column_letter
 
 # Definir variáveis globais
 caminho_pasta = 'C:\\AutomacaoTabelasReciprev\\'
 diretorio_planilhas = os.path.join(caminho_pasta, 'arquivos-analise\\planilhas_geradas')
-caminho_banco_dados = os.path.join(caminho_pasta, 'database.db')
+caminho_banco_dados = os.path.join(caminho_pasta, 'contab_reciprev.db')
 nome_aba_planilha_dinamica = '2020 DADOS'
 nome_aba_calculo_final = 'CÁLCULO FINAL FOLHA'
 dynamic_spreadsheet_path = ''
 
 def processar_arquivo(caminho_arquivo, diretorio_planilhas, dynamic_spreadsheet_path):
     nome_arquivo = os.path.splitext(os.path.basename(caminho_arquivo))[0]
+
+    # Conectar ao banco de dados
+    conexao = sqlite3.connect(caminho_banco_dados)
+    cursor = conexao.cursor()
 
     # Carregar a planilha dinâmica
     workbook = load_workbook(dynamic_spreadsheet_path)
@@ -30,9 +36,11 @@ def processar_arquivo(caminho_arquivo, diretorio_planilhas, dynamic_spreadsheet_
 
     with open(caminho_arquivo, 'r', encoding='utf-8') as file:
         conteudo = file.read()
-
+    
+    
     padrao_vantagens = r'(COD\s+V A N T A G E N S\s+TOT\. FUNC\.\s+TOT\. VALOR\s+COD\s+V A N T A G E N S\s+TOT\. FUNC\.\s+TOT\. VALOR[\s\S]+?)(?=\nCOD\s+D E S C O N T O S\s+TOT\. FUNC\.\s+TOT\. VALOR|\Z)'
     padrao_descontos = r'(COD\s+D E S C O N T O S\s+TOT\. FUNC\.\s+TOT\. VALOR\s+COD\s+D E S C O N T O S\s+TOT\. FUNC\.\s+TOT\. VALOR[\s\S]+?)(?=\nTOTAL\s+LIQUIDO|\Z)'
+
 
     def salvar_parte(texto, parte):
         caminho = os.path.join(diretorio_planilhas, f'{nome_arquivo}_parte{parte}.txt')
@@ -68,18 +76,52 @@ def processar_arquivo(caminho_arquivo, diretorio_planilhas, dynamic_spreadsheet_
         except ValueError:
             return 0.0
 
+    def obter_classificacao(cursor, verba):
+         # Primeiro, obter o id da verba na tabela 'verbas'
+        cursor.execute("SELECT id FROM verbas WHERE verba = ?", (verba,))
+        verba_id = cursor.fetchone()
+        
+        if verba_id:
+            # Usar o verba_id para buscar a classificação na tabela 'classificacoes'
+            cursor.execute("SELECT classificacao FROM classificacoes WHERE verba_id = ?", (verba_id[0],))
+            resultado = cursor.fetchone()
+            return resultado[0] if resultado else None
+        else:
+            # Se não encontrar a verba, retornar None
+            return None
+
     def extrair_dados(texto, tipo, categoria, orgao):
         linhas = texto.strip().split('\n')[2:]
         dados = []
+        
         for linha in linhas:
-            campos = re.split(r'\s{2,}', linha)
+            # Ignorar linhas vazias ou linhas que não parecem conter dados válidos
+            if not linha.strip() or len(linha.strip()) < 20:
+                continue
+            
+            campos = re.split(r'\s{2,}', linha.strip())
+            
+            # Verifica se há ao menos 4 campos antes de tentar processar a linha
             if len(campos) >= 4:
                 cod = limpar_cod(campos[0])
                 descricao = campos[1].strip()
                 tot_func = validar_numero(campos[2])
                 tot_valor = validar_numero(campos[3])
-                dados.append((tipo, cod, descricao, tot_func, tot_valor, categoria, orgao))
+                classificacao = obter_classificacao(cursor, cod)
+                
+                # Criar a tupla de dados com os 7 elementos necessários
+                dado = (tipo, cod, descricao, tot_func, tot_valor, categoria, orgao)
+                
+                # Se a tupla contém exatamente 7 elementos, ela é considerada válida
+                if len(dado) == 7:
+                    dados.append(dado)
+                else:
+                    print(f"Erro: Tupla com estrutura incorreta: {dado}")
+            else:
+                print(f"Erro: Linha com campos insuficientes: {linha}")
+        
         return dados
+
 
     def salvar_planilha(dados, nome_planilha):
         df = pd.DataFrame(dados, columns=['TIPO', 'COD', 'DESCRIÇÃO', 'TOT. FUNC.', 'TOT. VALOR', 'CATEGORIA', 'ORGÃO'])
@@ -105,7 +147,48 @@ def processar_arquivo(caminho_arquivo, diretorio_planilhas, dynamic_spreadsheet_
         try:
             conexao = sqlite3.connect(caminho_banco_dados)
             cursor = conexao.cursor()
-            cursor.executemany('INSERT INTO tabela (TIPO, COD, DESCRICAO, TOT_FUNC, TOT_VALOR, CATEGORIA, ORGAO) VALUES (?, ?, ?, ?, ?, ?, ?)', dados)
+
+            for dado in dados:
+                tipo, cod, descricao, tot_func, tot_valor, categoria, orgao = dado
+
+                # Verificar se a verba já existe
+                cursor.execute('''
+                    SELECT id FROM verbas WHERE verba = ?
+                ''', (cod,))
+                resultado = cursor.fetchone()
+
+                if resultado:
+                    verba_id = resultado[0]
+                    print(f"Verba já existe: {cod} - Ignorando inserção.")
+                else:
+                    # Inserir na tabela 'verbas'
+                    cursor.execute('''
+                        INSERT INTO verbas (verba, tipo, descricao, quantidade, total_valor)
+                        VALUES (?, ?, ?, ?, ?)
+                    ''', (cod, tipo, descricao, tot_func, tot_valor))
+                    verba_id = cursor.lastrowid
+
+                # Inserir na tabela 'orgaos'
+                if orgao:
+                    cursor.execute('''
+                        INSERT INTO orgaos (verba_id, orgao)
+                        VALUES (?, ?)
+                    ''', (verba_id, orgao))
+
+                # Inserir na tabela 'categorias'
+                if categoria:
+                    cursor.execute('''
+                        INSERT INTO categorias (verba_id, categoria)
+                        VALUES (?, ?)
+                    ''', (verba_id, categoria))
+
+                # Inserir na tabela 'codigo_orgaos'
+                if cod:
+                    cursor.execute('''
+                        INSERT INTO codigo_orgaos (verba_id, codigo_orgao)
+                        VALUES (?, ?)
+                    ''', (verba_id, cod))
+
             conexao.commit()
         except sqlite3.Error as e:
             print(f"Erro ao inserir dados no banco de dados: {e}")
@@ -115,7 +198,11 @@ def processar_arquivo(caminho_arquivo, diretorio_planilhas, dynamic_spreadsheet_
     def extrair_categoria(conteudo):
         padrao_categoria = r'\b(APO|PEN|PPR)\b'
         match = re.search(padrao_categoria, conteudo)
-        return match.group(0) if match else None
+        if match:
+            return match.group(0)
+        else:
+            print("Aviso: Categoria não encontrada no conteúdo.")
+            return "CATEGORIA NÃO ENCONTRADA"
 
     def extrair_orgao(conteudo):
         padroes_orgao = [
@@ -130,24 +217,84 @@ def processar_arquivo(caminho_arquivo, diretorio_planilhas, dynamic_spreadsheet_
             match = re.search(padrao, conteudo)
             if match:
                 return match.group(0)
-        return None
+        print("Aviso: Órgão não encontrado no conteúdo.")
+        return "ÓRGÃO NÃO ENCONTRADO"
 
     def inserir_dados_calculo_final(dados, worksheet_calculo_final):
         # Agrupar dados por 'TIPO', 'CATEGORIA' e 'ORGÃO'
         dados_agrupados = {}
         for dado in dados:
-            tipo_categoria_orgao = (dado[0], dado[5], dado[6])  # ('TIPO', 'CATEGORIA', 'ORGÃO')
-            if tipo_categoria_orgao not in dados_agrupados:
-                dados_agrupados[tipo_categoria_orgao] = []
-            dados_agrupados[tipo_categoria_orgao].append(dado)
+            if len(dado) >= 8:
+                tipo_categoria_orgao = (dado[0], dado[6], dado[7])  # ('TIPO', 'CATEGORIA', 'ORGÃO')
+                if tipo_categoria_orgao not in dados_agrupados:
+                    dados_agrupados[tipo_categoria_orgao] = []
+                dados_agrupados[tipo_categoria_orgao].append(dado)
+            else:
+                print(f"Erro: Tupla com estrutura incorreta: {dado}")
 
-        # Inserir os dados na planilha
+        # Definir estilos
+        header_fill = PatternFill(start_color='BDD7EE', end_color='BDD7EE', fill_type='solid')
+        bold_font = Font(bold=True)
+        alignment_center = Alignment(horizontal='center')
+        alignment_left = Alignment(horizontal='left')
+        alignment_right = Alignment(horizontal='right')
+        
+        # Inserir os dados na planilha de forma hierárquica
+        linha_atual = 1  # Controlar a linha onde inserir os dados
         for (tipo, categoria, orgao), items in dados_agrupados.items():
-            worksheet_calculo_final.append([f'{tipo} - {orgao}'])
-            worksheet_calculo_final.append([categoria, sum([item[4] for item in items])])
+            # Inserir título do tipo e órgão
+            worksheet_calculo_final[f'A{linha_atual}'] = f'{tipo} - {orgao}'
+            worksheet_calculo_final[f'A{linha_atual}'].font = bold_font
+            worksheet_calculo_final[f'A{linha_atual}'].alignment = alignment_left
+            worksheet_calculo_final.merge_cells(f'A{linha_atual}:E{linha_atual}')
+            linha_atual += 1
+            
+            # Agrupar por classificação
+            classificacao_grupos = {}
             for item in items:
-                worksheet_calculo_final.append(['', '', item[1], item[2], item[4]])  # ['COD', 'DESCRIÇÃO', 'TOT. VALOR']
-            worksheet_calculo_final.append([])  # Linha vazia para separar grupos
+                classificacao = item[5]
+                if classificacao not in classificacao_grupos:
+                    classificacao_grupos[classificacao] = []
+                classificacao_grupos[classificacao].append(item)
+
+            # Inserir dados para cada classificação
+            for classificacao, itens_classificados in classificacao_grupos.items():
+                total_valor_classificacao = sum([item[4] for item in itens_classificados])
+                worksheet_calculo_final[f'B{linha_atual}'] = classificacao
+                worksheet_calculo_final[f'C{linha_atual}'] = f'R$ {total_valor_classificacao:,.2f}'
+                worksheet_calculo_final[f'B{linha_atual}'].font = bold_font
+                worksheet_calculo_final[f'C{linha_atual}'].font = bold_font
+                worksheet_calculo_final[f'B{linha_atual}'].alignment = alignment_left
+                worksheet_calculo_final[f'C{linha_atual}'].alignment = alignment_left
+
+                linha_atual += 1
+
+                for item in itens_classificados:
+                    cod = item[1]
+                    descricao = item[2]
+                    tot_valor = item[4]
+                    worksheet_calculo_final[f'C{linha_atual}'] = cod
+                    worksheet_calculo_final[f'D{linha_atual}'] = descricao
+                    worksheet_calculo_final[f'E{linha_atual}'] = f'R$ {tot_valor:,.2f}'
+                    worksheet_calculo_final[f'C{linha_atual}'].alignment = alignment_center
+                    worksheet_calculo_final[f'D{linha_atual}'].alignment = alignment_left
+                    worksheet_calculo_final[f'E{linha_atual}'].alignment = alignment_right
+
+                    linha_atual += 1
+                
+                # Adicionar uma linha em branco para separar grupos
+                linha_atual += 1
+
+        # Ajustar a largura das colunas
+        for col in range(1, 6):
+            worksheet_calculo_final.column_dimensions[get_column_letter(col)].width = 20
+
+        # Aplicar cabeçalho, alinhamento e formatação do total
+        worksheet_calculo_final['A1'].fill = header_fill
+        worksheet_calculo_final['A1'].font = bold_font
+        worksheet_calculo_final['A1'].alignment = alignment_center
+
+
 
     categoria = extrair_categoria(conteudo)
     orgao = extrair_orgao(conteudo)
@@ -193,6 +340,9 @@ def processar_arquivo(caminho_arquivo, diretorio_planilhas, dynamic_spreadsheet_
 
         inserir_dados_calculo_final(dados_parte1, worksheet_calculo_final)
         inserir_dados_calculo_final(dados_parte2, worksheet_calculo_final)
+
+    # Fechar a conexão com o banco de dados
+    conexao.close()
 
     workbook.save(dynamic_spreadsheet_path)
 

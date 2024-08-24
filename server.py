@@ -1,50 +1,85 @@
 import sqlite3
-import pandas as pd
+import os
 
-# Caminhos dos arquivos de planilhas
-file_path1 = 'C:\\AutomacaoReciprev\\tabelas\\dados-cassificacao.xlsx'
-file_path2 = 'C:\\AutomacaoReciprev\\tabelas\\dados-cassificacao2.xlsx'
+def create_tables():
+    db_name = 'contab_reciprev.db'
+    with sqlite3.connect(db_name) as conn:
+        cursor = conn.cursor()
 
-# Ler as planilhas
-data1 = pd.read_excel(file_path1)
-data2 = pd.read_excel(file_path2, engine='odf')
+        # Criando a tabela 'verbas'
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS verbas (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                verba TEXT NOT NULL UNIQUE,
+                tipo TEXT NOT NULL,
+                descricao TEXT NOT NULL,
+                quantidade INTEGER NOT NULL DEFAULT 0,
+                total_valor REAL NOT NULL DEFAULT 0.0
+            )
+        ''')
 
-# Combinar os dados das duas planilhas
-combined_data = pd.concat([data1, data2])
+        # Criando a tabela 'orgaos'
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS orgaos (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                verba_id INTEGER NOT NULL,
+                orgao TEXT NOT NULL,
+                FOREIGN KEY (verba_id) REFERENCES verbas(id) ON DELETE CASCADE
+            )
+        ''')
 
-# Remover linhas duplicadas
-combined_data = combined_data.drop_duplicates()
+        # Criando a tabela 'classificacoes'
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS classificacoes (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                verba_id INTEGER NOT NULL,
+                classificacao TEXT NOT NULL,
+                FOREIGN KEY (verba_id) REFERENCES verbas(id) ON DELETE CASCADE
+            )
+        ''')
 
-# Selecionar apenas as colunas relevantes
-combined_data = combined_data[['CÓD. VERBA', 'TIPO VERBA', 'DESCR. VERBA', 'CLASSIFICAÇÃO', 'CATEGORIA']]
+        # Criando a tabela 'categorias'
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS categorias (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                verba_id INTEGER NOT NULL,
+                categoria TEXT NOT NULL,
+                FOREIGN KEY (verba_id) REFERENCES verbas(id) ON DELETE CASCADE
+            )
+        ''')
 
-# Renomear as colunas para facilitar o mapeamento
-combined_data.columns = ['cod_verba', 'tipo_verba', 'desc_verba', 'classificacao', 'categoria']
+        # Criando a tabela 'elementos'
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS elementos (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                verba_id INTEGER NOT NULL,
+                elemento TEXT NOT NULL,
+                FOREIGN KEY (verba_id) REFERENCES verbas(id) ON DELETE CASCADE
+            )
+        ''')
 
-# Conectar ao banco de dados e criar/atualizar a tabela
-conn = sqlite3.connect('database.db')
-c = conn.cursor()
+        # Criando a tabela 'codigo_orgaos'
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS codigo_orgaos (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                verba_id INTEGER NOT NULL,
+                codigo_orgao TEXT NOT NULL,
+                FOREIGN KEY (verba_id) REFERENCES verbas(id) ON DELETE CASCADE
+            )
+        ''')
 
-# Criar nova tabela com colunas adicionais (se necessário)
-c.execute('''
-CREATE TABLE IF NOT EXISTS verbas (
-    cod_verba INTEGER PRIMARY KEY,
-    tipo_verba TEXT,
-    desc_verba TEXT,
-    classificacao TEXT,
-    categoria TEXT
-)
-''')
+        # Criando índices para melhorar a performance das consultas
+        cursor.execute('CREATE INDEX IF NOT EXISTS idx_verba_id_orgaos ON orgaos(verba_id)')
+        cursor.execute('CREATE INDEX IF NOT EXISTS idx_verba_id_classificacoes ON classificacoes(verba_id)')
+        cursor.execute('CREATE INDEX IF NOT EXISTS idx_verba_id_categorias ON categorias(verba_id)')
+        cursor.execute('CREATE INDEX IF NOT EXISTS idx_verba_id_elementos ON elementos(verba_id)')
+        cursor.execute('CREATE INDEX IF NOT EXISTS idx_verba_id_codigo_orgaos ON codigo_orgaos(verba_id)')
 
-# Inserir os dados no banco de dados
-for index, row in combined_data.iterrows():
-    c.execute('''
-    INSERT OR IGNORE INTO verbas (cod_verba, tipo_verba, desc_verba, classificacao, categoria)
-    VALUES (?, ?, ?, ?, ?)
-    ''', (row['cod_verba'], row['tipo_verba'], row['desc_verba'], row['classificacao'], row['categoria']))
+    # Verifica se o banco de dados foi criado
+    if os.path.exists(db_name):
+        print(f"Banco de dados '{db_name}' criado com sucesso.")
+    else:
+        print(f"Falha ao criar o banco de dados '{db_name}'.")
 
-# Salvar as alterações
-conn.commit()
-
-# Fechar a conexão
-conn.close()
+if __name__ == "__main__":
+    create_tables()
