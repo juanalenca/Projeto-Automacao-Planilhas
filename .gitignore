@@ -1,0 +1,26 @@
+# Ignorar o ambiente virtual
+.venv/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Ignorar arquivos de análise e tabelas
+arquivos-analise/
+tabelas/
+
+# Ignorar arquivos de banco de dados
+contab_reciprev.db
+database.db
+
+# Ignorar arquivos Python compilados
+*.pyc
+__pycache__/
+
+# Ignorar o arquivo de configurações específico de seu editor de texto, se for necessário
+.vscode/
+.idea/
+
+# Manter o README.md, planilhas.py e server.py no controle de versão
+!README.md
+!planilhas.py
+!server.py
