@@ -1,26 +1,68 @@
-# Ignorar o ambiente virtual
+# Ignorar o ambiente virtual e dependências
 .venv/
 Lib/
 Scripts/
 pyvenv.cfg
+__pycache__/
+dateutil/
+defusedxml-0.7.1.dist-info/
+defusedxml/
+et_xmlfile-1.1.0.dist-info/
+et_xmlfile/
+numpy-2.0.1.dist-info/
+numpy.libs/
+numpy/
+odf/
+odfpy-1.4.1.dist-info/
+openpyxl-3.1.5.dist-info/
+openpyxl/
+pandas-2.2.2.dist-info/
+pandas.libs/
+pandas/
+pip-24.2.dist-info/
+pip/
+python_dateutil-2.9.0.post0.dist-info/
+pytz-2024.1.dist-info/
+pytz/
+six-1.16.0.dist-info/
+tzdata-2024.1.dist-info/
+tzdata/
 
-# Ignorar arquivos de análise e tabelas
-arquivos-analise/
-tabelas/
+# Ignorar arquivos individuais relacionados a pacotes
+numpy-2.0.1-cp312-cp312-win_amd64.whl
+six.py
+csv2ods
+mailodf
+odf2mht
+odf2xhtml
+odf2xml
+odfimgimport
+odflint
+odfmeta
+odfoutline
+odfuserfield
+xml2odf
+f2py.exe
+numpy-config.exe
+pip.exe
+pip3.12.exe
+pip3.exe
+python.exe
+pythonw.exe
 
 # Ignorar arquivos de banco de dados
 contab_reciprev.db
 database.db
 
-# Ignorar arquivos Python compilados
+# Ignorar arquivos compilados do Python
 *.pyc
 __pycache__/
 
-# Ignorar o arquivo de configurações específico de seu editor de texto, se for necessário
+# Ignorar o arquivo de configurações do editor de texto
 .vscode/
 .idea/
 
-# Manter o README.md, planilhas.py e server.py no controle de versão
+# Manter arquivos essenciais
 !README.md
 !planilhas.py
 !server.py
