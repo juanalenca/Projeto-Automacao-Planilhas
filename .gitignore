@@ -174,3 +174,13 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+### Reciprev Custom ###
+# Bancos de dados
+*.db
+contab_reciprev.db
+database.db
+
+# Pastas de I/O de planilhas e dados contábeis locais
+tabelas/
+arquivos-analise/
